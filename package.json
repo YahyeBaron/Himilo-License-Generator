@@ -1,0 +1,27 @@
+{
+    "name": "himilo-license-portal",
+    "version": "1.0.0",
+    "description": "License Management Portal for Himilo Bakery ERP — Deploy to Vercel",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --port 3001",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "next": "14.2.5",
+        "react": "^18",
+        "react-dom": "^18",
+        "pg": "^8.11.3",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@types/pg": "^8.11.6",
+        "@types/uuid": "^9.0.8",
+        "typescript": "^5"
+    }
+}
